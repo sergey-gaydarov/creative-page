@@ -1,0 +1,63 @@
+.container {
+    max-width: 1170px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'MontsReg', sans-serif;
+    font-size: 14px;
+    color: #4e4e4e;
+    background-color: #fff;
+    overflow-x: hidden; 
+}
+
+a, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'MontsBold', sans-serif; 
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 3.4vh;
+}
+
+
+.section-title {
+    position: relative;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 94px;
+    margin-bottom: 108px;
+}
+
+.section-title h3::after {
+    content: "";
+    position: absolute;
+    bottom: -34%;
+    left: 46.7%;
+    width: 77px;
+    height: 3px;
+    border-top: 1px solid #18cfab;
+    border-bottom: 1px solid #18cfab;
+    transform: skewX(75deg);
+}   
+
+.item { 
+    height: 367px;
+    width: 100%;
+    border-top: 7px solid #18cfab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c2a33;
+}
+
+
+
+
+
